@@ -1,0 +1,21 @@
+/*
+ * Job.h
+ *
+ *  Created on: Oct 6, 2014
+ *      Author: cotrim
+ */
+
+#ifndef JOB_H_
+#define JOB_H_
+
+class Job {
+public:
+	Job();
+	virtual ~Job();
+
+	int startTime;
+	int endTime;
+
+};
+
+#endif /* JOB_H_ */

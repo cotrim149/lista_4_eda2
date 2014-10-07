@@ -1,0 +1,62 @@
+/*
+ * Job.cpp
+ *
+ *  Created on: Oct 6, 2014
+ *      Author: cotrim
+ */
+
+#include "Job.h"
+
+Job::Job() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Job::~Job() {
+	// TODO Auto-generated destructor stub
+}
+
+float Job::getEndTime() const
+{
+    return endTime;
+}
+
+float Job::getStartTime() const
+{
+    return startTime;
+}
+
+void Job::setEndTime(float endTime)
+{
+    this->endTime = endTime;
+}
+
+void Job::setStartTime(float startTime)
+{
+    this->startTime = startTime;
+}
+
+vector<Job> createRandomTasks(){
+
+	srand (static_cast <unsigned> (time(0)));
+
+	int totalTasks = 10;
+	vector<Job> jobs(totalTasks);
+
+
+	for(int i=0;i<totalTasks;i++){
+		Job job;
+		float r2 = static_cast <float> (rand()) / (static_cast <float> (RAND_MAX/X));
+
+	}
+
+
+
+	return jobs;
+
+
+}
+
+
+
+

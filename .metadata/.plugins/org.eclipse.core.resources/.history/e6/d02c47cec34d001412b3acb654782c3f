@@ -1,0 +1,29 @@
+/*
+ * Job.h
+ *
+ *  Created on: Oct 6, 2014
+ *      Author: cotrim
+ */
+
+#ifndef JOB_H_
+#define JOB_H_
+
+#include <vector>
+
+class Job {
+public:
+	Job();
+	virtual ~Job();
+
+	vector<jobs> createRandomTasks();
+
+	float getEndTime() const;
+    float getStartTime() const;
+    void setEndTime(float endTime);
+    void setStartTime(float startTime);
+    float startTime;
+	float endTime;
+
+};
+
+#endif /* JOB_H_ */

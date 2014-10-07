@@ -1,0 +1,100 @@
+/*
+ * Job.cpp
+ *
+ *  Created on: Oct 6, 2014
+ *      Author: cotrim
+ */
+
+#include "Job.h"
+
+Job::Job() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Job::~Job() {
+	// TODO Auto-generated destructor stub
+}
+
+float Job::getEndTime() const
+{
+    return endTime;
+}
+
+float Job::getStartTime() const
+{
+    return startTime;
+}
+
+void Job::setEndTime(float endTime)
+{
+    this->endTime = endTime;
+}
+
+void Job::setStartTime(float startTime)
+{
+    this->startTime = startTime;
+}
+
+vector<Job> Job::createRandomTasks(){
+
+	srand (static_cast <unsigned> (time(0)));
+
+	int totalTasks = 10;
+
+
+	for(int i=0;i<totalTasks;i++){
+
+		float startTime = static_cast <float> (rand()) / (static_cast <float> (RAND_MAX/24));
+		float endTime = static_cast <float> (rand()) / (static_cast <float> (RAND_MAX/24));
+
+		Job job;
+		job.setStartTime(startTime);
+		job.setEndTime(endTime);
+
+		this->jobs.push_back(job);
+		this->endTime = 2;
+
+	}
+
+
+
+	return this->jobs;
+}
+
+void Job::printJobs(){
+
+
+	for(unsigned int i=0; i< this->jobs.size(); i++){
+		cout << "Tarefa: " << i << endl;
+		cout << "Start Time: " << this->jobs[i].getStartTime() << endl;
+		cout << "End Time: " << this->jobs[i].getEndTime() << endl;
+	}
+
+}
+
+void Job::sortJobsStartTime(){
+
+
+	for(int j=0; j< this->jobs.size();j++){
+		for(int i=0; i< this->jobs.size() - 1;i++){
+
+			if(this->jobs[i].getStartTime() > this->jobs[i+1].getStartTime()){
+				Job tempJob = this->jobs[i+1];
+
+				this->jobs[i+1] = this->jobs[i];
+				this->jobs[i] = tempJob;
+
+			}
+
+		}
+
+	}
+
+
+}
+
+
+
+
+
