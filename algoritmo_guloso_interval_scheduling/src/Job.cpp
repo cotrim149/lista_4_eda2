@@ -54,7 +54,7 @@ void roundNumber(float *value){
 
 vector<Job> Job::createRandomTasks(){
 	// semente aleatoria
-	//srand (static_cast <unsigned> (time(0)));
+	srand (static_cast <unsigned> (time(0)));
 
 	int totalTasks = 10;
 
