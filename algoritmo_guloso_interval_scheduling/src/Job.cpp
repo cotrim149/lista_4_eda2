@@ -53,8 +53,8 @@ void roundNumber(float *value){
 }
 
 vector<Job> Job::createRandomTasks(){
-
-	srand (static_cast <unsigned> (time(0)));
+	// semente aleatoria
+	//srand (static_cast <unsigned> (time(0)));
 
 	int totalTasks = 10;
 
@@ -64,12 +64,15 @@ vector<Job> Job::createRandomTasks(){
 		float startTime = static_cast <float> (rand()) / (static_cast <float> (RAND_MAX/10)) + 8;
 		float endTime = static_cast <float> (rand()) / (static_cast <float> (RAND_MAX/9)) + 9;
 
-		while(endTime < startTime){
+		while(endTime <= startTime){
 			if(startTime > 17.5){
 				startTime = static_cast <float> (rand()) / (static_cast <float> (RAND_MAX/10)) + 8;
 			}
 
 			endTime = static_cast <float> (rand()) / (static_cast <float> (RAND_MAX/9)) + 9;
+
+			roundNumber(&startTime);
+			roundNumber(&endTime);
 
 		}
 
@@ -161,26 +164,71 @@ void Job::sortJobsIntervalLength(){
 	}
 }
 
-void Job::verifyCompatibilityStartTime(vector<Job> jobs){
+vector<int> Job::verifyCompatibilityStartTime(vector<Job> jobs){
 
 	vector<int> compatibilityJobs;
 
-	for(unsigned int i=0;i<jobs.size()-1;i++){
+	float actualStartTime;
+	float actualEndTime;
+
+	Job bigJob;
+
+	for(unsigned int i=0;i<jobs.size();i++){
 		int qtd=0;
 		compatibilityJobs.push_back(qtd);
+		bigJob = jobs[i];
 
-		for(unsigned int j=i+1;j < jobs.size(); j++){
-			if(jobs[i].getStartTime() < jobs[j].getStartTime()){
-				if(jobs[i].getEndTime() <= jobs[j].getStartTime()){
-					compatibilityJobs.at(i)++;
+		for(unsigned int j=0;j < jobs.size(); j++){
+
+			if(j!=i){
+				if(bigJob.getStartTime() < jobs[j].getStartTime()){
+					if(bigJob.getEndTime() <= jobs[j].getStartTime()){
+						bigJob.setEndTime(jobs[j].getEndTime());
+						compatibilityJobs.at(i)++;
+					}
+				}
+
+			}
+
+		}
+	}
+
+
+	for(unsigned int i=0;i< compatibilityJobs.size(); i++){
+		cout << "Qtd job "<< i << ": " << compatibilityJobs[i] << endl;
+	}
+
+	return compatibilityJobs;
+}
+
+vector<int> Job::verifyCompatibilityEndTime(vector<Job> jobs){
+
+	vector<int> compatibilityJobs;
+
+	Job bigJob;
+
+	for(unsigned int i=0;i<jobs.size();i++){
+		int qtd=0;
+		compatibilityJobs.push_back(qtd);
+		bigJob = jobs[i];
+		for(unsigned int j=0;j < jobs.size(); j++){
+
+			if(i!=j){
+				if(bigJob.getEndTime() < jobs[j].getEndTime()){
+					if(jobs[i].getEndTime() <= jobs[j].getStartTime()){
+						bigJob.setEndTime(jobs[j].getEndTime());
+						compatibilityJobs.at(i)++;
+					}
 				}
 			}
 		}
 	}
 
-	for(int i=0;i< compatibilityJobs.size(); i++){
+	for(unsigned int i=0;i< compatibilityJobs.size(); i++){
 		cout << "Qtd job "<< i << ": " << compatibilityJobs[i] << endl;
 	}
+
+	return compatibilityJobs;
 
 }
 
