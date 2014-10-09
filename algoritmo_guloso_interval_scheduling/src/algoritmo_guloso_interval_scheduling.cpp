@@ -23,14 +23,20 @@ int main() {
 	cout << "\nJobs sorted Start time\n" << endl;
 	jobs.printJobs();
 
-	jobs.sortJobsEndTime();
-	cout << "\nJobs sorted end time\n" << endl;
-	jobs.printJobs();
+	vector<Job> jobsStartTime = jobs.jobs;
 
-	jobs.sortJobsIntervalLength();
-	cout << "\nJobs sorted interval length\n" << endl;
-	jobs.printJobs();
+	jobs.verifyCompatibilityStartTime(jobsStartTime);
 
+
+//	jobs.sortJobsEndTime();
+//	cout << "\nJobs sorted end time\n" << endl;
+//	jobs.printJobs();
+//
+//	jobs.sortJobsIntervalLength();
+//	cout << "\nJobs sorted interval length\n" << endl;
+//	jobs.printJobs();
+
+//	ordenar por horário
 
 	return 0;
 }

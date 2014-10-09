@@ -99,6 +99,7 @@ void Job::printJobs(){
 		cout << "Start Time: " << this->jobs[i].getStartTime() << endl;
 		cout << "End Time: " << this->jobs[i].getEndTime() << endl;
 		cout << "Interval length: " << this->jobs[i].intervalLength << endl;
+		cout << endl;
 	}
 
 }
@@ -157,7 +158,28 @@ void Job::sortJobsIntervalLength(){
 			}
 
 		}
+	}
+}
 
+void Job::verifyCompatibilityStartTime(vector<Job> jobs){
+
+	vector<int> compatibilityJobs;
+
+	for(unsigned int i=0;i<jobs.size()-1;i++){
+		int qtd=0;
+		compatibilityJobs.push_back(qtd);
+
+		for(unsigned int j=i+1;j < jobs.size(); j++){
+			if(jobs[i].getStartTime() < jobs[j].getStartTime()){
+				if(jobs[i].getEndTime() <= jobs[j].getStartTime()){
+					compatibilityJobs.at(i)++;
+				}
+			}
+		}
+	}
+
+	for(int i=0;i< compatibilityJobs.size(); i++){
+		cout << "Qtd job "<< i << ": " << compatibilityJobs[i] << endl;
 	}
 
 }

@@ -35,6 +35,7 @@ public:
     void sortJobsStartTime();
     void sortJobsEndTime();
     void sortJobsIntervalLength();
+    void verifyCompatibilityStartTime(vector<Job> jobs);
 
 
 };
