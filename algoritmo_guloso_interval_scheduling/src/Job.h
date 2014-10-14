@@ -12,6 +12,7 @@
 #include <cstdlib>
 #include <ctime>
 #include <vector>
+#include <climits>
 
 using namespace std;
 
@@ -30,14 +31,15 @@ public:
     float getStartTime() const;
     void setEndTime(float endTime);
     void setStartTime(float startTime);
-    vector<Job> createRandomTasks();
+    vector<Job> createRandomTasks(int totalTasks);
     void printJobs();
     void sortJobsStartTime();
     void sortJobsEndTime();
     void sortJobsIntervalLength();
-    vector<int> verifyCompatibilityStartTime(vector<Job> jobs);
-    vector<int> verifyCompatibilityEndTime(vector<Job> jobs);
-
+    vector<int> verifyCompatibilityStartTime(vector<Job> jobs, bool compatibility);
+    vector<int> verifyCompatibilityEndTime(vector<Job> jobs,bool compatibility);
+    int verifyMajor(vector<int> numbers);
+    int verifyMinor(int *numbers,int qtd);
 };
 
 #endif /* JOB_H_ */

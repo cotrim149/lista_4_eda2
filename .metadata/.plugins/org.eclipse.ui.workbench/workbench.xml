@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="17" version="2.0">
+<workbench progressCount="16" version="2.0">
 <workbenchAdvisor/>
 <window height="744" maximized="true" width="1024" x="65" y="24">
 <fastViewData fastViewLocation="1024"/>
@@ -14,7 +14,7 @@
 <coolItem id="org.eclipse.cdt.ui.buildConfigActionSet" itemType="typeToolBarContribution" x="82" y="30"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="120" y="30"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="104" y="30"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="68" y="30"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="124" y="30"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="184" y="30"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
@@ -35,24 +35,26 @@
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="algoritmo_guloso_interval_scheduling.cpp" partName="algoritmo_guloso_interval_scheduling.cpp" path="/home/cotrim/Dropbox/Unb/eda2/Listas/Lista_4/algoritmo_guloso_interval_scheduling/src/algoritmo_guloso_interval_scheduling.cpp" title="algoritmo_guloso_interval_scheduling.cpp" tooltip="algoritmo_guloso_interval_scheduling/src/algoritmo_guloso_interval_scheduling.cpp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/algoritmo_guloso_interval_scheduling/src/algoritmo_guloso_interval_scheduling.cpp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="694" selectionTopPixel="139"/>
-</editor>
-<editor focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="Job.cpp" partName="Job.cpp" path="/home/cotrim/Dropbox/Unb/eda2/Listas/Lista_4/algoritmo_guloso_interval_scheduling/src/Job.cpp" title="Job.cpp" tooltip="algoritmo_guloso_interval_scheduling/src/Job.cpp" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Job.cpp" partName="Job.cpp" path="/home/cotrim/Dropbox/Unb/eda2/Listas/Lista_4/algoritmo_guloso_interval_scheduling/src/Job.cpp" title="Job.cpp" tooltip="algoritmo_guloso_interval_scheduling/src/Job.cpp" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/algoritmo_guloso_interval_scheduling/src/Job.cpp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1312" selectionTopPixel="1067"/>
+<editorState selectionHorizontalPixel="0" selectionLength="41" selectionOffset="4809" selectionTopPixel="3996"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="Job.h" partName="Job.h" path="/home/cotrim/Dropbox/Unb/eda2/Listas/Lista_4/algoritmo_guloso_interval_scheduling/src/Job.h" title="Job.h" tooltip="algoritmo_guloso_interval_scheduling/src/Job.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/algoritmo_guloso_interval_scheduling/src/Job.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="598" selectionTopPixel="258"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="797" selectionTopPixel="103"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="algoritmo_guloso_interval_scheduling.cpp" partName="algoritmo_guloso_interval_scheduling.cpp" path="/home/cotrim/Dropbox/Unb/eda2/Listas/Lista_4/algoritmo_guloso_interval_scheduling/src/algoritmo_guloso_interval_scheduling.cpp" title="algoritmo_guloso_interval_scheduling.cpp" tooltip="algoritmo_guloso_interval_scheduling/src/algoritmo_guloso_interval_scheduling.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/algoritmo_guloso_interval_scheduling/src/algoritmo_guloso_interval_scheduling.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="142" selectionTopPixel="18"/>
 </editor>
 </editors>
 <views>
 <view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
 <viewState CommonNavigator.LINKING_ENABLED="0" CommonNavigator.LINKING_ENABLED.delayed="0" org.eclipse.cdt.ui.cview.groupincludes="false" org.eclipse.cdt.ui.cview.groupmacros="false" org.eclipse.cdt.ui.editor.CUChildren="true" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
 </view>
-<view id="org.eclipse.ui.views.PropertySheet" partName="Properties"/>
+<view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
+<viewState/>
+</view>
 <view id="org.eclipse.cdt.make.ui.views.MakeView" partName="Make Target"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
@@ -60,7 +62,7 @@
 <category IMemento.internal.id="Warnings"/>
 <category IMemento.internal.id="Errors"/>
 </expanded>
-<columnWidths org.eclipse.ui.ide.locationField="73" org.eclipse.ui.ide.markerType="358" org.eclipse.ui.ide.pathField="143" org.eclipse.ui.ide.resourceField="108" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
+<columnWidths org.eclipse.ui.ide.locationField="73" org.eclipse.ui.ide.markerType="324" org.eclipse.ui.ide.pathField="143" org.eclipse.ui.ide.resourceField="108" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
@@ -77,8 +79,8 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.ui.console.ConsoleView" activePerspective="org.eclipse.cdt.ui.CPerspective">
-<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<perspectives activePart="org.eclipse.cdt.ui.editor.CEditor" activePerspective="org.eclipse.cdt.ui.CPerspective">
+<perspective editorAreaTrimState="1" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.cdt.internal.ui.CPerspectiveFactory" id="org.eclipse.cdt.ui.CPerspective" label="C/C++"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
@@ -128,26 +130,37 @@
 <perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
 <perspective_action id="org.eclipse.team.ui.TeamSynchronizingPerspective"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
-<view id="org.eclipse.ui.views.ProblemView"/>
-<view id="org.eclipse.ui.views.TaskList"/>
-<view id="org.eclipse.ui.console.ConsoleView"/>
-<view id="org.eclipse.ui.views.PropertySheet"/>
-<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
-<view id="org.eclipse.ui.views.ContentOutline"/>
-<view id="org.eclipse.cdt.make.ui.views.MakeView"/>
-<view id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
-<fastViewBars/>
+<fastViewBars>
+<fastViewBar fastViewLocation="131072" id="topRight" orientation="512" selectedTabId="org.eclipse.ui.views.ContentOutline" style="1">
+<fastViews>
+<view id="org.eclipse.ui.views.ContentOutline" ratio="0.3"/>
+<view id="org.eclipse.cdt.make.ui.views.MakeView" ratio="0.3"/>
+<view id="org.eclipse.mylyn.tasks.ui.views.tasks" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="16384" id="topLeft" orientation="512" selectedTabId="org.eclipse.ui.navigator.ProjectExplorer" style="1">
+<fastViews>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="1024" id="bottom" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView" style="1">
+<fastViews>
+<view id="org.eclipse.ui.views.ProblemView" ratio="0.3"/>
+<view id="org.eclipse.ui.views.TaskList" ratio="0.3"/>
+<view id="org.eclipse.ui.console.ConsoleView" ratio="0.29924813"/>
+<view id="org.eclipse.ui.views.PropertySheet" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
 <layout>
 <mainWindow>
 <info folder="true" part="topLeft">
-<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
-<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<folder appearance="2" expanded="0">
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.cdt.ui.CView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@285896a2" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="topLeft">
@@ -160,29 +173,20 @@
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.24950495" ratioLeft="252" ratioRight="758" relationship="2" relative="topLeft"/>
 <info folder="true" part="bottom" ratio="0.56992483" ratioLeft="379" ratioRight="286" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
-<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
-<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
-<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
-</presentation>
+<folder appearance="2" expanded="0">
+<page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info folder="true" part="topRight" ratio="0.74934036" ratioLeft="568" ratioRight="190" relationship="2" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
-<page content="org.eclipse.cdt.make.ui.views.MakeView" label="Make Target"/>
-<page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="Task List"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-<part id="1"/>
-<part id="2"/>
-</presentation>
+<folder appearance="2" expanded="0">
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<page content="org.eclipse.cdt.make.ui.views.MakeView" label="LabelNotFound"/>
+<page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </mainWindow>
@@ -197,154 +201,154 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/algoritmo_guloso_interval_scheduling/src/Job.h"/>
 </editors>
 <item historyLabel="Job.cpp" index="1">
-<position info="not_deleted" x="1506" y="0"/>
-</item>
-<item historyLabel="Job.h" index="2">
 <position/>
 </item>
 <item historyLabel="Job.cpp" index="1">
-<position info="not_deleted" x="1525" y="0"/>
+<position info="not_deleted" x="3714" y="0"/>
 </item>
 <item historyLabel="Job.h" index="2">
+<position info="not_deleted" x="705" y="0"/>
+</item>
+<item historyLabel="algoritmo_guloso_interval_scheduling.cpp" index="0">
+<position info="not_deleted" x="2323" y="0"/>
+</item>
+<item historyLabel="Job.cpp" index="1">
+<position info="not_deleted" x="3113" y="20"/>
+</item>
+<item historyLabel="Job.h" index="2">
+<position info="not_deleted" x="705" y="0"/>
+</item>
+<item historyLabel="Job.cpp" index="1">
+<position info="not_deleted" x="3113" y="20"/>
+</item>
+<item historyLabel="algoritmo_guloso_interval_scheduling.cpp" index="0">
+<position/>
+</item>
+<item historyLabel="Job.h" index="2">
+<position info="not_deleted" x="705" y="0"/>
+</item>
+<item historyLabel="Job.cpp" index="1">
+<position info="not_deleted" x="3113" y="20"/>
+</item>
+<item historyLabel="Job.cpp" index="1">
+<position info="not_deleted" x="4048" y="0"/>
+</item>
+<item historyLabel="Job.cpp" index="1">
+<position info="not_deleted" x="4563" y="0"/>
+</item>
+<item historyLabel="Job.cpp" index="1">
+<position info="not_deleted" x="3982" y="19"/>
+</item>
+<item historyLabel="Job.h" index="2">
+<position info="not_deleted" x="831" y="0"/>
+</item>
+<item historyLabel="algoritmo_guloso_interval_scheduling.cpp" index="0">
+<position/>
+</item>
+<item historyLabel="Job.cpp" index="1">
+<position info="not_deleted" x="4980" y="0"/>
+</item>
+<item historyLabel="Job.h" index="2">
+<position info="not_deleted" x="831" y="0"/>
+</item>
+<item historyLabel="algoritmo_guloso_interval_scheduling.cpp" index="0">
 <position/>
 </item>
 <item historyLabel="algoritmo_guloso_interval_scheduling.cpp" index="0">
-<position info="not_deleted" x="475" y="0"/>
-</item>
-<item historyLabel="Job.h" index="2">
 <position/>
 </item>
 <item historyLabel="Job.cpp" index="1">
-<position info="not_deleted" x="1525" y="0"/>
+<position info="not_deleted" x="4980" y="0"/>
 </item>
 <item historyLabel="Job.cpp" index="1">
-<position info="not_deleted" x="1860" y="0"/>
+<position info="not_deleted" x="2944" y="0"/>
 </item>
 <item historyLabel="Job.cpp" index="1">
+<position info="not_deleted" x="3889" y="0"/>
+</item>
+<item historyLabel="Job.cpp" index="1">
+<position info="not_deleted" x="3741" y="0"/>
+</item>
+<item historyLabel="Job.cpp" index="1">
+<position info="not_deleted" x="4589" y="0"/>
+</item>
+<item historyLabel="Job.h" index="2">
+<position info="not_deleted" x="831" y="0"/>
+</item>
+<item historyLabel="algoritmo_guloso_interval_scheduling.cpp" index="0">
 <position/>
 </item>
 <item historyLabel="Job.cpp" index="1">
+<position info="not_deleted" x="833" y="0"/>
+</item>
+<item historyLabel="algoritmo_guloso_interval_scheduling.cpp" index="0">
 <position/>
 </item>
 <item historyLabel="Job.cpp" index="1">
+<position info="not_deleted" x="833" y="0"/>
+</item>
+<item historyLabel="algoritmo_guloso_interval_scheduling.cpp" index="0">
 <position/>
 </item>
-<item historyLabel="Job.cpp" index="1">
+<item historyLabel="algoritmo_guloso_interval_scheduling.cpp" index="0">
+<position info="not_deleted" x="1773" y="0"/>
+</item>
+<item historyLabel="algoritmo_guloso_interval_scheduling.cpp" index="0">
 <position/>
 </item>
-<item historyLabel="Job.cpp" index="1">
-<position info="not_deleted" x="1832" y="29"/>
-</item>
-<item historyLabel="Job.h" index="2">
+<item historyLabel="algoritmo_guloso_interval_scheduling.cpp" index="0">
 <position/>
 </item>
-<item historyLabel="Job.cpp" index="1">
-<position info="not_deleted" x="1832" y="29"/>
-</item>
-<item historyLabel="Job.cpp" index="1">
-<position info="not_deleted" x="1912" y="0"/>
-</item>
-<item historyLabel="Job.cpp" index="1">
-<position info="not_deleted" x="1832" y="29"/>
-</item>
-<item historyLabel="Job.h" index="2">
-<position info="not_deleted" x="457" y="0"/>
-</item>
-<item historyLabel="Job.cpp" index="1">
-<position info="not_deleted" x="1832" y="29"/>
-</item>
-<item historyLabel="Job.h" index="2">
-<position info="not_deleted" x="623" y="0"/>
-</item>
 <item historyLabel="algoritmo_guloso_interval_scheduling.cpp" index="0">
-<position info="not_deleted" x="475" y="0"/>
-</item>
-<item historyLabel="algoritmo_guloso_interval_scheduling.cpp" index="0">
-<position info="not_deleted" x="571" y="0"/>
-</item>
-<item historyLabel="Job.cpp" index="1">
-<position info="not_deleted" x="1832" y="29"/>
-</item>
-<item historyLabel="Job.cpp" index="1">
-<position info="not_deleted" x="1538" y="0"/>
-</item>
-<item historyLabel="Job.cpp" index="1">
-<position info="not_deleted" x="1515" y="22"/>
-</item>
-<item historyLabel="Job.h" index="2">
-<position info="not_deleted" x="540" y="0"/>
-</item>
-<item historyLabel="Job.cpp" index="1">
-<position info="not_deleted" x="709" y="36"/>
-</item>
-<item historyLabel="Job.h" index="2">
-<position info="not_deleted" x="540" y="0"/>
-</item>
-<item historyLabel="Job.h" index="2">
-<position info="not_deleted" x="488" y="0"/>
-</item>
-<item historyLabel="algoritmo_guloso_interval_scheduling.cpp" index="0">
-<position info="not_deleted" x="571" y="0"/>
-</item>
-<item historyLabel="algoritmo_guloso_interval_scheduling.cpp" index="0">
-<position info="not_deleted" x="518" y="0"/>
-</item>
-<item historyLabel="Job.cpp" index="1">
-<position info="not_deleted" x="2161" y="27"/>
-</item>
-<item historyLabel="Job.h" index="2">
-<position info="not_deleted" x="570" y="0"/>
-</item>
-<item historyLabel="algoritmo_guloso_interval_scheduling.cpp" index="0">
-<position info="not_deleted" x="662" y="0"/>
-</item>
-<item historyLabel="Job.cpp" index="1">
-<position info="not_deleted" x="2161" y="27"/>
-</item>
-<item historyLabel="Job.h" index="2">
-<position info="not_deleted" x="316" y="0"/>
-</item>
-<item historyLabel="Job.cpp" index="1">
-<position info="not_deleted" x="2161" y="27"/>
-</item>
-<item historyLabel="Job.cpp" index="1">
-<position info="not_deleted" x="2193" y="48"/>
-</item>
-<item historyLabel="Job.cpp" index="1">
-<position info="not_deleted" x="2485" y="34"/>
-</item>
-<item historyLabel="algoritmo_guloso_interval_scheduling.cpp" index="0">
-<position info="not_deleted" x="662" y="0"/>
-</item>
-<item historyLabel="Job.h" index="2">
-<position info="not_deleted" x="598" y="0"/>
-</item>
-<item historyLabel="algoritmo_guloso_interval_scheduling.cpp" index="0">
-<position info="not_deleted" x="694" y="0"/>
-</item>
-<item historyLabel="Job.cpp" index="1">
-<position info="not_deleted" x="2485" y="34"/>
-</item>
-<item historyLabel="Job.cpp" index="1">
-<position info="not_deleted" x="1824" y="0"/>
-</item>
-<item historyLabel="Job.cpp" index="1">
 <position/>
 </item>
-<item historyLabel="Job.cpp" index="1">
-<position info="not_deleted" x="1083" y="0"/>
+<item historyLabel="algoritmo_guloso_interval_scheduling.cpp" index="0">
+<position/>
+</item>
+<item historyLabel="algoritmo_guloso_interval_scheduling.cpp" index="0">
+<position info="not_deleted" x="2261" y="0"/>
+</item>
+<item historyLabel="Job.h" index="2">
+<position info="not_deleted" x="831" y="0"/>
 </item>
 <item historyLabel="Job.cpp" index="1">
-<position info="not_deleted" x="1323" y="0"/>
+<position info="not_deleted" x="833" y="0"/>
 </item>
 <item historyLabel="Job.cpp" index="1">
-<position info="not_deleted" x="498" y="0"/>
+<position info="not_deleted" x="4849" y="0"/>
 </item>
 <item historyLabel="Job.cpp" index="1">
-<position info="not_deleted" x="582" y="0"/>
+<position info="not_deleted" x="4849" y="0"/>
 </item>
-<item active="true" historyLabel="Job.cpp" index="1">
-<position info="not_deleted" x="634" y="0"/>
+<item historyLabel="Job.cpp" index="1">
+<position info="not_deleted" x="4903" y="0"/>
+</item>
+<item historyLabel="Job.cpp" index="1">
+<position info="not_deleted" x="4898" y="0"/>
+</item>
+<item historyLabel="Job.cpp" index="1">
+<position info="not_deleted" x="4932" y="0"/>
+</item>
+<item historyLabel="Job.cpp" index="1">
+<position info="not_deleted" x="4923" y="0"/>
+</item>
+<item historyLabel="Job.cpp" index="1">
+<position info="not_deleted" x="4809" y="41"/>
+</item>
+<item historyLabel="Job.h" index="2">
+<position info="not_deleted" x="797" y="0"/>
+</item>
+<item historyLabel="Job.cpp" index="1">
+<position info="not_deleted" x="4809" y="41"/>
+</item>
+<item historyLabel="algoritmo_guloso_interval_scheduling.cpp" index="0">
+<position info="not_deleted" x="2281" y="0"/>
+</item>
+<item historyLabel="algoritmo_guloso_interval_scheduling.cpp" index="0">
+<position info="not_deleted" x="573" y="0"/>
+</item>
+<item active="true" historyLabel="algoritmo_guloso_interval_scheduling.cpp" index="0">
+<position info="not_deleted" x="499" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -366,12 +370,14 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
-<trimItem IMemento.internal.id="org.eclipse.ui.internal.intro.impl.presentations.IntroLaunchBar"/>
 <trimItem IMemento.internal.id="bottom"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="algoritmo_guloso_interval_scheduling.cpp" tooltip="algoritmo_guloso_interval_scheduling/src/algoritmo_guloso_interval_scheduling.cpp">
+<persistable path="/algoritmo_guloso_interval_scheduling/src/algoritmo_guloso_interval_scheduling.cpp"/>
+</file>
 <file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="vector" tooltip="/usr/include/c++/4.8/vector">
 <persistable path="/usr/include/c++/4.8/vector" project="algoritmo_guloso_interval_scheduling"/>
 </file>
@@ -380,9 +386,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Job.cpp" tooltip="algoritmo_guloso_interval_scheduling/src/Job.cpp">
 <persistable path="/algoritmo_guloso_interval_scheduling/src/Job.cpp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="algoritmo_guloso_interval_scheduling.cpp" tooltip="algoritmo_guloso_interval_scheduling/src/algoritmo_guloso_interval_scheduling.cpp">
-<persistable path="/algoritmo_guloso_interval_scheduling/src/algoritmo_guloso_interval_scheduling.cpp"/>
 </file>
 </mruList>
 </workbench>
